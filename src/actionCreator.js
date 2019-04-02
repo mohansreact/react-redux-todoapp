@@ -5,12 +5,12 @@ export function addTodo(task) {
     return {
         type: ADD_TODO,
         task
-    }
+    };
 }
 
-export function removeTodo(id) {
+export function removeTodo(task) {
     return {
         type: REMOVE_TODO,
-        id
-    }
+        task
+    };
 }
